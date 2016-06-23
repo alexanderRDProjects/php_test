@@ -3,7 +3,7 @@
     define ("SOL_IP", 0);
     define ("IP_TTL", 2);    // On OSX, use '4' instead of '2'.
 
-    $dest_url = $_SERVER['REMOTE_ADDR']";   // Fill in your own URL here, or use $argv[1] to fetch from commandline.
+    $dest_url = "https://"+$_SERVER['REMOTE_ADDR']";   // Fill in your own URL here, or use $argv[1] to fetch from commandline.
     $maximum_hops = 30;
     $port = 33434;  // Standard port that traceroute programs use. Could be anything actually.
 
