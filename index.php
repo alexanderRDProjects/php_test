@@ -1,7 +1,6 @@
 <html>
 <head>
   <title>PHP Tracer</title>
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ > 
 </head>
 <p>clients screen resolution: <script type='text/javascript'>document.write(screen.width+'x'+screen.height); </script></p>
 <p>referer: <?php print ($_SERVER['HTTP_REFERER']); ?></p>
