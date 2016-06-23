@@ -53,7 +53,7 @@
             }
 
             // Print statistics
-            printf ("%3d   %-15s  %.3f ms  %s\n", $ttl, $recv_addr,  $roundtrip_time, $recv_name);
+            printf ("<p>%3d   %-15s  %.3f ms  %s</p>\n", $ttl, $recv_addr,  $roundtrip_time, $recv_name);
         } else {
             // A timeout has occurred, display a timeout
             printf ("%3d   (timeout)\n", $ttl);
