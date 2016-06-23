@@ -1,6 +1,5 @@
 <?php
-$IP=$_REQUEST['IP'];
-set_time_limit(120);
-echo "<h1>Traceroute $IP</h1><pre>";
-passthru("tracert.exe -h 8 $IP");
+    $result = shell_exec("C:\\Windows\\System32\\TRACERT.exe www.google.com");
+    print $result;
+    echo "<br/>Success!";
 ?>
